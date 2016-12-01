@@ -1,0 +1,100 @@
+p {
+color: #666;
+width: 500px;
+}
+
+div {
+color: #666666;
+width: 500px;
+margin-top:20px;
+margin-right:auto;
+margin-left:auto;
+}
+span {
+color:#009900;
+}
+h1 {
+color:#660000;
+font-size:30px;
+}
+img {
+float: left;
+margin-right: 20px;
+}
+a {
+font-size: 150%;
+font-weight: bold;
+color: #FF6666;
+text-decoration: none;
+}
+a:hover {
+color: #9900FF;
+text-decoration: underline;
+font-style: italic;
+}
+p#goto-profile a {
+background: url(../image/101031_btn2.gif) no-repeat left top;
+width: 140px;
+height: 36px;
+display: block;
+color: #FFFFFF;
+font-size: 15px;
+line-height: 36px;
+text-align: center;
+}
+p#goto-profile a:hover {
+background: url(../image/101031_btn2.gif) no-repeat right top;
+}
+
+body {
+    width:100%;
+    margin:0;
+    padding:0;
+    color:#666;
+    font-family:Century Gothic, Arial, sans-serif;
+    line-height: 18px;
+/*背景の指定*/
+    background:#3cc;
+    background: linear-gradient(to bottom right, #FCC, #CF6 20%, #3CC 40%, #006 70%);
+}
+
+    #container {
+    width: 600px;
+    margin: 0px auto;
+    padding: 30px;
+    background: #fff;
+}
+
+header {
+    width: 600px;
+    margin: 0px auto;
+    padding: 30px;
+    color: #fff;
+/*headerの背景の指定*/
+    background:#009;
+    background: linear-gradient(to right, rgba(0,153,255,0.5), #009);
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 240%;
+}
+
+footer {
+    font: bold 80%/1em Arial, Helvetica, sans-serif;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+    background: #000;
+}
+
+ul#sample-circle li {
+	list-style: circle;
+}
+
+ol#sample-upper-alpha {
+    margin: 0px;
+}
+ol#sample-upper-alpha li {
+    list-style: upper-alpha;
+}
